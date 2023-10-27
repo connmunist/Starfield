@@ -1,7 +1,7 @@
 Particle [] jp;
 Oddball daleader = new Oddball();
 
-PImage background;
+PImage bg;
 PImage leader;
 
 void setup()
@@ -23,7 +23,7 @@ void setup()
 void draw()
 {
  background(0);
- image(background, 140,140);
+ image(bg, 140,140);
  for(int i = 0; i < jp.length; i++){
    jp[i].show();
    jp[i].move();;
