@@ -7,7 +7,7 @@ PImage leader;
 void setup()
 {
   size(500,500);
-  background= loadImage("freeza1.png"); 
+  bg = loadImage("freeza1.png"); 
   leader = loadImage("daleader.png");
   
   jp = new Particle [500];
